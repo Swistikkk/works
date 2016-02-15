@@ -1,0 +1,13 @@
+#content_header {
+    position: absolute;
+	right: 60px;
+	top: 200px;
+}
+
+#products .right {
+    text-align: right;
+}
+
+#products .right table {
+    text-align: left;
+}

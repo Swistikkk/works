@@ -1,0 +1,133 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1200px) {
+
+	.main-header {
+		height: 81px;
+	}
+
+	.top-contacts {
+		height: 81px;
+	}
+
+	.top-logo {
+		padding-left: 81px;
+		line-height: 81px;
+	}
+
+}
+	
+
+@media only screen and (max-width : 992px) {
+	.top-menu {
+		display: none;
+	}
+}
+	
+
+@media only screen and (max-width : 768px) {
+	.top-banner {
+		min-height: 500px;
+	}
+
+	.top-banner-text {
+		padding-top: 145px;
+		text-align: left;
+	}
+
+	.top-banner-text h1 {
+		width: 360px;
+		font-size: 1.875em;
+		line-height: 1.25em;
+	}
+
+	.top-banner-text p {
+		width: 350px;
+		font-weight: 500;
+		font-size: 1.125em; 
+	}
+
+	.new-line {
+		margin-top: 20px;
+		display: block;
+	}
+
+	.table-btn {
+		display: inline-block;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.women-table {
+		position: absolute;
+		right: 0;
+		top: 81px;
+		width: 321px;
+		height: 420px;
+		display: block;
+   	background: url("../img/women-table.png");
+	}
+
+	.women {
+		display: none;
+	}
+
+	.top-menu  {
+		line-height: 2.25em;
+		left: -24px;
+    	top: 81px;
+		position: absolute;
+		background: #fff;
+		width: 200px;
+		height: 230px;
+	}
+
+	.top-menu a {
+		margin-left: 0;
+		margin: 10px 17px 0 24px;
+		display: inline-block;
+	}
+}
+
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+@media only screen and (min-width : 320px) {
+
+}
+
+
+@media only screen and (min-width : 480px) {
+
+}
+
+
+@media only screen and (min-width : 768px) {
+	
+}
+
+
+@media only screen and (min-width : 992px) {
+	
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+	.top-toggle {
+		display: none;
+	}
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/main.css" />
+
+
+</head>
+
+<body>
+
+	<div class="form_wr">
+		<form action="#">
+			<div class="form_wr-top">
+				<div class="left">
+					<label for="phone_form">Телефон</label>
+					<br>
+					<input type="text" id="phone_form">
+					<br>
+					<label for="fio_form">ФИО</label>
+					<br>
+					<input type="text" id="fio_form">
+					<br>
+					<label for="email_form">E-mail</label>
+					<br>
+					<input type="text" id="email_form">
+					<br>
+					<div class="wr_inp_gender">
+						<label for="gender_form">Пол</label>
+						<br>
+						<input type="text" id="gender_form">
+						<br>
+					</div>
+					<div class="wr_date_birth_inp">
+						<label for="date_birth_form">Дата рождения</label>
+						<br>
+						<input type="text" id="date_birth_form">
+						<br>
+					</div>
+					<label for="captcha_form">Введите код с картинки</label>
+					<br>
+					<input type="text" id="captcha_form">
+					<br>
+					<img src="img/captcha.jpg" alt="">
+				</div>
+				<div class="center">
+
+					<div class="wr_input">
+						<label>Фотография чека</label>
+						<br>
+						<div class="img_check_wr"></div>
+					</div>
+
+					<div class="wr_input">
+						<div class="wr_number_check_inp">
+							<label for="number_check_form">Номер чека</label>
+							<br>
+							<input type="text" id="number_check_form">
+							<br>
+						</div>
+						<div class="tip_img_wr">
+							<img src="img/tip.png" alt="Подсказка" title="Подсказка">
+						</div>
+					</div>
+
+					<div class="wr_input">
+						<div class="wr_item_inp">
+							<label>Товар</label>
+							<br>
+							<div class="select_main">
+								<label for="calc_region_1">></label>
+								<select name="version_pledge" value="" id="calc_region_1">
+									<option value="0" class="select_hidden">Выберите вариант залога</option>
+									<option value="1">Залог автомобиля</option>
+									<option value="2">Залог недвижимости</option>
+									<option value="3">Залог бизнеса</option>
+								</select>
+							</div>
+						</div>
+						<div class="wr_number_check_inp_count">
+							<label for="number_check_inp_count">Шт</label>
+							<br>
+							<input type="text" id="number_check_inp_count">
+							<br>
+						</div>
+						<div class="tip_img_wr">
+							<img src="img/tip.png" alt="Подсказка" title="Подсказка">
+						</div>
+					</div>
+
+					<div class="wr_input">
+						<div class="wr_item_inp">
+							<label>Товар</label>
+							<br>
+							<div class="select_main">
+								<label for="calc_region_2">></label>
+								<select name="version_pledge" value="" id="calc_region_2">
+									<option value="0" class="select_hidden">Выберите вариант залога</option>
+									<option value="1">Залог автомобиля</option>
+									<option value="2">Залог недвижимости</option>
+									<option value="3">Залог бизнеса</option>
+								</select>
+							</div>
+						</div>
+						<div class="wr_number_check_inp_count">
+							<label for="number_check_inp_count">Шт</label>
+							<br>
+							<input type="text" id="number_check_inp_count">
+							<br>
+						</div>
+						<div class="tip_img_wr">
+							<img src="img/tip.png" alt="Подсказка" title="Подсказка">
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="right">
+					<a href="#" class="download_btn">загрузить</a>
+					<div class="number_check_wr">
+						<div class="number_check_title">
+							<label class="title">Номер чека</label>
+							<a href="#" class="close_btn"></a>
+						</div>
+						<div class="check_img_wr">
+							<img src="img/check.jpg" alt="" class="check_img">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form_wr-bottom">
+			<br><br>
+				<div class="wr_checkbox">
+					<input type="checkbox" id="checkbox-1"><label for="checkbox-1">Я прочитал(а) и принимаю <a href="#">правила акции</a></label>
+				</div>
+				<div class="wr_checkbox">
+					<input type="checkbox" id="checkbox-2"><label for="checkbox-2">Я подтверждаю подлинность предоставленных данных</label>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="hidden"></div>
+
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+
+</html>

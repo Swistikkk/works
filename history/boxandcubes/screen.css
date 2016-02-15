@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+	font-style: Arial;
+}
+
+body {
+    border-top: solid 1px #464646;
+}
+
+.header {
+    border-top: solid 11px #252525;
+    border-bottom: solid 11px #131313;
+    font: 11px 'Verdana';
+}
+
+.gradiented {
+    height: 130px;
+    background: linear-gradient(to bottom, #2d2d2d 0%, #191919 100%);
+}
+
+.content {
+    width: 952px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 26px;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font: 54px/54px 'Comfortaa';
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo small {
+    color: #595959;
+    font: 12px/12px 'Geneva','Verdana',sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.header .separator {
+    width: 20px;
+    height: 130px;
+    background-color: #252525;
+    float: right;
+}
+
+.header .separator>div {
+    width: 100%;
+    height: 100%;
+}
+
+.header .separator.right>div {
+    border-top-left-radius: 20px;
+}
+
+.header .separator.left>div {
+    border-top-right-radius: 20px;
+}
+
+.header .search-box {
+    float: right;
+    background: linear-gradient(to bottom, #252525 0%, #191919 100%);
+    padding: 8px 20px 18px 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #6e6e6e;
+}
+
+.header .subscribe {
+    background: transparent url('img/rss.png') no-repeat;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: 16px;
+}
+
+.header .subscribe a,
+.header .subscribe a:hover,
+.header .subscribe a:active,
+.header .subscribe a:visited {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+.header .search-box  input {
+    width: 242px;
+    border: none;
+    height: 38px;
+    border-bottom: solid 1px #292929;
+    border-radius: 10px;
+    color: #a9a9a9;
+    font: 11px 'Verdana';
+    padding-left: 10px;
+    padding-right: 40px;
+    background: #111111 url('img/search.png') no-repeat right center;
+}
+
+.header .nav {
+    float: right;
+    margin-top: 8px;
+    color: #363636;
+    margin-right: -5px;
+}
+
+.header .nav a,
+.header .nav a:hover,
+.header .nav a:active,
+.header .nav a:visited {
+    text-decoration: none;
+    color: #616161;
+    margin: 0 6px 0 5px;
+}

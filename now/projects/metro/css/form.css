@@ -1,0 +1,312 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	*/
+}
+.form_wr {
+	width: 580px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.form_wr .left {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.form_wr .left .wr_inp_gender {
+	display: inline-block;
+	width: 70px;
+}
+.form_wr .left .wr_date_birth_inp {
+	display: inline-block;
+	width: 110px;
+	float: right;
+}
+.form_wr .left #captcha_form {
+	margin-bottom: 0;
+}
+.form_wr label {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #a7a9ac;
+	margin-bottom: 6px;
+	display: inline-block;
+	vertical-align: top;
+}
+.form_wr input {
+	width: 100%;
+	height: 26px;
+	border: 2px solid #cecfd0;
+	padding-left: 5px;
+	margin-bottom: 11px;
+}
+.form_wr .center {
+	width: 160px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+.form_wr .center .wr_number_check_inp {
+	display: inline-block;
+	width: 130px;
+	vertical-align: top;
+}
+.form_wr .center .tip_img_wr {
+	display: inline-block;
+	float: right;
+	margin-top: 21px;
+}
+.form_wr .center .img_check_wr {
+	border: 2px solid #cecfd0;
+	height: 135px;
+	margin-bottom: 12px;
+}
+.form_wr .center .wr_item_inp {
+	display: inline-block;
+	width: 88px;
+	vertical-align: top;
+}
+.form_wr .center .wr_number_check_inp_count {
+	display: inline-block;
+	width: 38px;
+	vertical-align: top;
+}
+.form_wr .right {
+	width: 160px;
+	display: inline-block;
+	vertical-align: top;
+}
+.form_wr .right .download_btn {
+    position: relative;
+	display: inline-block;
+	padding: 6px 16px;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	background: #a7a9ac;
+	font-family: sans-serif;
+	margin-top: 129px;
+}
+.form_wr .right .number_check_wr {
+	border: 2px solid #cecfd0;
+	height: 140px;
+	margin-top: 30px;
+}
+.form_wr .right .number_check_title {
+	border-bottom: 2px solid #cecfd0;
+	margin: 6px 4px 0 4px;
+	padding: 0 3px 0 6px;
+}
+.form_wr .right .number_check_wr .close_btn {
+	display: inline-block;
+	background: url(../img/close_btn.png) no-repeat;
+	width: 11px;
+	height: 11px;
+	vertical-align: top;
+	float: right;
+}
+.form_wr .right .number_check_wr .check_img_wr {
+	text-align: center;
+}
+.form_wr .right .number_check_wr .check_img {
+	display: inline-block;
+	width: 105px;
+	height: 95px;
+	margin-top: 7px;
+}
+.select_main {
+	overflow: hidden;
+	height: 26px;
+	border: 2px solid #cecfd0;
+	position: relative;
+}
+.select_main select {
+	width: 108px;
+	height: 24px;
+	border: none;
+	padding-right: 33px;
+}
+.select_main label {
+	content: ">";
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	transform: rotate(90deg);
+	font-family: monospace;
+	font-size: 20px;
+	width: 18px;
+	color: #a7a9ac;
+	border-bottom: 2px solid #cecfd0;
+}
+.select_hidden {
+	display: none;
+}
+.wr_checkbox label {
+	position: relative;
+	display: inline-block;
+	line-height: 19px;
+	padding-left: 33px;
+	padding-bottom: 6px;
+}
+.wr_checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 19px;
+	margin-right: 10px;
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	border-radius: 50%;
+	border: 2px solid #cecfd0;
+	line-height: 22px;
+}
+.wr_checkbox input:checked + label:before {
+	content: "\2022";
+	color: #54b948;
+	font-size: 48px;
+	text-align: center;
+}
+.wr_checkbox input {
+	display: none;
+}
+.wr_checkbox a{
+	color: #1b4580;
+}
+.wr_checkbox a:hover{
+	text-decoration: none;
+}

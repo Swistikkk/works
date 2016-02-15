@@ -1,0 +1,312 @@
+body {
+    font-family: Arial, "Times New Roman", sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	padding:20px 40px 20px 35px;
+}
+.clear {
+    clear: both;
+}
+
+#logo table {
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+#logo p {
+    margin: 0px;
+	font-style: italic;
+}
+
+.gray {
+    color: #afaeae;
+}
+
+.green {
+    color: #91aa77;
+	font-weight: bold;
+}
+
+#topmenu {
+    background-color: #538bc5;
+	margin-top: 20px;
+}
+
+#topmenu ul {
+    margin: 0;
+	padding: 0;
+}
+
+#topmenu ul li {
+    float: left;
+	list-style: none;
+}
+
+#topmenu ul li a {
+    color: #fff;
+	font-size: 120%;
+	display: block;
+	padding:15px 20px;
+	text-decoration: none;
+}
+
+#topmenu ul li.active a, #topmenu ul li a:hover {
+    background-color: #375c84;
+}
+
+#contacts {
+    float: right;
+	margin: 10px 10px 0 0;
+	padding: ;
+}
+
+#contacts a{
+    text-decoration: none;
+}
+
+#contacts a img {
+    border: none;
+}
+
+#header {
+    margin-top: 15px;
+}
+#header img {
+    width: 100%;
+}
+
+#content_header {
+    float: right;
+	height: 1px;
+	position: relative;
+	text-align: right;
+	top: -150px;
+	right: 20px;
+}
+
+#content_header h1, #content_header h3 {
+    margin: 0;
+}
+
+#content_header h1 {
+    color: #688fb1;
+	font-size: 210%;
+}
+
+#content_header h3 {
+    color: #91a9bd;
+	font-size: 100%;
+}
+
+#content_header p {
+    margin-top:30px;
+}
+#content_header a {
+    background-color: #d8812e;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+#menu {
+    margin-top: 15px;
+}
+
+#search {
+    float: right;
+}  
+
+#menu .right {
+    text-align: right;
+}
+
+#menu table {
+    width: 100%;
+}
+
+#menu table table {
+    width:  auto;
+}
+
+
+#menu td a {
+    background-color: #ececec;
+	color: #a0a0a0;
+	font-weight: bold;
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu td.active a, #menu td a:hover {
+    background-color: #e2ecf4;
+	color: #3b638f;
+}
+
+
+
+#search div {
+    border: 1px solid #aec697;
+	margin-top: -4px;
+}
+
+#search div input {
+    border: 3px solid #cbddbb;
+	height: 25px;
+	width: 220px;
+	color: #676767;
+	padding-left: 5px;
+}
+
+.separator {
+    height: 1px;
+	border-top: 1px dashed #b6c6dd;
+	width: 100%;
+	margin: 15px 0;
+}
+
+#products table {
+    width: 100%;
+}
+
+#products table table {
+    width: auto;
+}
+
+#products.center table {
+    margin: 0 auto;
+}
+
+#products .right {
+    float: right;
+	text-align: left;
+}
+
+#products p {
+    margin: 5px;
+}
+
+#products .title {
+    color: #3b638f;
+	font-weight: bold;
+}
+
+#products .image {
+    border: 1px solid #cde1f1;
+	text-align: center;
+}
+
+#products .image div {
+    border: 5px solid #e2ecf4;
+}
+
+#products .image img {
+    height: 290px;
+	margin-bottom: -4px;
+	width: 290px;
+}
+
+#products .price, #products .cod {
+    font-weight: bold;
+}
+
+#products .price span {
+    color: #669048;
+}
+
+#products .cod {
+    text-align: right;
+}
+
+#products .cod span {
+    color: #676767;
+} 
+
+#pagination table {
+    background-color: #e2ecf4;
+	padding: 8px;
+	width: 100%;
+}
+
+#pagination .left, #pagination .right {
+    width: 20%;
+}
+
+#pagination table a {
+    background-color: #acbece;
+	padding: 10px 20px;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#pagination td.active a, #pagination td a:hover {
+    background-color: #538bc5;
+}
+
+#pagination #pages {
+    width: auto;
+	margin: 0 auto;
+}
+
+#pagination #pages a {
+    background-color: #538bc5;
+}
+
+#pagination #pages td.active a, #pagination #pages td a:hover {
+    background-color: #375c84;
+}
+
+#footer {
+    font-size: 90%;
+}
+
+#footer table {
+    width: 100%;
+}
+
+#footer table td {
+    vertical-align: top;
+}
+
+
+#footer table table {
+    float: right;
+    width: auto;
+}  
+
+#footer p {
+    margin: 0;
+	color: #628488;
+}
+
+#footer  a {
+    color: #37565a;
+	text-decoration: none;
+}
+
+#footer table table a {
+    color: #628488;
+}
+
+#footer table table td {
+    border-right: 1px solid #628488;
+	padding: 0 5px;
+}
+
+#footer  .last {
+    border: none;
+	padding-right: 0;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    margin: 0 auto;
+}

@@ -1,0 +1,34 @@
+// main: style.less
+
+.clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.header-style() {
+    color: @heading_color;
+    text-decoration: none;
+    line-height: 123px; 
+    font-family: @roboto_c; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-modify(@bg) {
+    background: @bg;
+    box-shadow: 0 4px 0 darken(@bg, 5%);
+    color: #fff;
+    
+    &:hover {
+        background: darken(@bg, 5%);
+        box-shadow: 0 4px 0 darken(darken(@bg, 5%), 5%);
+    }
+}

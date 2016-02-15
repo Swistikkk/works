@@ -1,0 +1,451 @@
+body {
+    background: #ebebe9;
+    width: 960px;
+    margin: 40px auto 0;
+    font: 16px Arial, sans-serif;
+}
+
+
+
+
+
+/*Верхнее меню*/
+
+.top-menu {
+    background: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.home {
+    display: inline-block;
+}
+
+.top-home img{
+    border: none;
+}
+
+.home, .top-menu-list {
+    float: left;
+}
+
+.top-menu-list {
+    margin: 12px 0 14px 0;
+}
+
+.top-menu-list-item {
+    text-decoration: none;
+    color: #475055;
+    padding: 12px 24px 14px 32px;
+}
+
+.top-menu-list-item:hover {
+    color: #56ccc8;
+}
+
+.menu-icon {
+    float: right;
+    margin-right: 24px;
+}
+
+.menu-icon a img {
+    border: none;
+}
+
+.first-menu-icon, 
+.menu-icon-2, 
+.menu-icon-3, 
+.menu-icon-4, 
+.last-menu-icon {
+    padding: 10px 0 8px;
+    display: inline-block;
+}
+
+.last-menu-icon {
+    padding: 12px 0 8px 24px;
+    border-left: 1px solid #dde2e4;
+}
+
+.menu-icon-2, 
+.menu-icon-3, 
+.menu-icon-4 {
+    padding-right: 20px;
+}
+
+.menu-icon-2 {
+    padding-left: 20px;
+    border-left: 1px solid #dde2e4;
+}
+
+.first-menu-icon {
+    padding-right: 22px;
+}
+
+
+
+
+
+/*Верхняя шапка*/
+
+.top-header {
+    height: 350px;
+    background-image: url(../img/top-header.jpg);
+}
+
+.top-content {
+    padding: 47px 0 0 54px;
+    color: #fff;
+    width: 440px;
+}
+
+.top-content h1 {
+    margin: 0 0 23px 0;
+    font-size: 46px;
+    font-weight: normal;
+}
+
+.top-content p {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0 0 15px;
+}
+
+.top-element {
+    margin-top: 0;
+}
+
+p.bottom-element {
+    margin-bottom: 50px;
+}
+
+.top-header-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 40px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: background .9s;
+}
+
+.top-header-link:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
+/*Контейнер*/
+
+.container {
+    margin-top: 20px;
+}
+
+/*Левый сайтбар*/
+
+.left-part-of-site {
+    float: left;
+    width: 300px;
+}
+
+.left-sidebar {
+    margin-bottom: 20px;
+}
+
+.sidebar-link-gorizontal {
+    width: 232px;
+    display: inline-block;
+}
+
+.section-sidebar {
+    height: 160px;
+    background: #1f3045;
+    padding: 26px 0 0 33px;
+    box-sizing: border-box;
+}
+
+.section-sidebar h3 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #53c4c1;
+}
+
+.section-sidebar ul {
+    padding-left: 0px;
+}
+
+.section-sidebar ul li {
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.section-sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.middle-section-bar {
+    height: 190px;
+    background: #324864;
+    padding: 26px 0 0 33px;
+    box-sizing: border-box;
+}
+
+.middle-section-bar h3 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #53c4c1;
+}
+
+.middle-section-bar ul {
+    padding-left: 0px;
+}
+
+.middle-section-bar ul li {
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.middle-section-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+/*Последние записи*/
+
+.left-last-posts {
+    margin-right: 40px;
+    background: #fff;
+    padding: 26px 0 0;
+    width: 300px;
+    box-sizing: border-box;
+    height: 365px
+}
+
+.name-last-posts {
+    color: #475055;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+    padding: 0 0 21px 21px;
+    border-bottom: 1px solid #dde2e4;
+}
+
+.last-post {
+    margin: 20px 0 17px;
+}
+
+.last-post p {
+    font-size: 15px;
+    color: #475055;
+    padding-right: 20px;
+    margin-bottom: 18px;
+}
+
+.name-of-part-sidebar a {
+    font-size: 15px;
+    color: #475055;
+    text-decoration: none;
+}
+
+.last-post time {
+    color: #a3abaf;
+    font-size: 14px;
+}
+
+.image-link-last {
+    float: left;
+    margin: 0 17px 0 17px;
+}
+
+/*Форма*/
+
+.main {
+    width: 300px;
+    height: 380px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.form-my {
+    margin: 20px 18px 0 18px;
+}
+
+.form-my h2 {
+    color: #475055;
+    padding-left: 7px;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 27px;
+}
+
+.form-my input, .form-my textarea {
+    padding: 11px 0 12px 18px;
+    color: #a3abaf;
+    border: 1px solid #dde2e4;
+    margin-bottom: 13px;
+    font-size: 16px;
+    width: 242px;
+}
+
+.form-my input:focus, .form-my textarea:focus {
+    color: #475055;
+    border: 1px solid #4bc7c7;
+    outline: none;
+}
+
+.form-my textarea {
+    height: 100px;
+    resize: none;
+    font-family: Arial;
+    
+}
+
+.form-my button {
+    background: #ea6060;
+    color: #fff;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 5px;
+    width: 105px;
+    font-size: 16px;
+}
+
+.form-my button:hover {
+    background: #b44545;
+}
+
+
+
+/*Основной контент*/
+
+.contant {
+    float: right;
+    width: 620px;
+}
+
+.post {
+    background: #fff;
+    height: 450px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.left-post-link {
+    position: absolute;
+    z-index: 1;
+    top: 187px;
+}
+
+.post-text {
+    background: #fff;
+    padding: 45px 0 0 72px;
+    position: absolute;
+}
+
+.name-post {
+    margin: 0 0 33px;
+    font-size: 24px;
+    color: #475055;
+    font-weight: normal;
+}
+
+.zagolovok {
+    text-decoration: none;
+}
+
+.text-post {
+    margin: 0 0 58px 0;
+    font-size: 15px;
+    color: #475055;
+    line-height: 22px;
+    padding-right: 61px;
+}
+
+.post-text-link {
+    color: #ea6060;
+    text-decoration: none;
+}
+
+.bottom-post-links {
+    margin-bottom: 27px;
+}
+
+.bottom-post-links ul {
+    margin: 0 0 -10px 0;
+}
+
+.bottom-post-links ul li {
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    left: -15px;
+}
+
+.reposts {
+    list-style-image: url(../img/share.png);
+}
+
+.looked {
+    list-style-image: url(../img/looked.png);
+}
+
+.comments {
+    list-style-image: url(../img/commented.png);
+}
+
+.bottom-post-links span {
+    font-size: 15px;
+    color: #475055;
+    position: relative;
+    top: -3px;
+}
+
+
+
+
+
+/*Footer*/
+
+.bottom-footer {
+    background: #333;
+    clear: both;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.left-part-of-footer {
+    float: left;
+} 
+
+.right-part-of-footer {
+    float: right;
+} 
+
+.copirites {
+    color: #47b0b0;
+    text-decoration: none;
+}
+
+.left-part-of-footer span {
+    color: #fff;
+}
+
+.right-part-of-footer a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.right-part-of-footer a:hover {
+    color: #4bc7c7;
+}
