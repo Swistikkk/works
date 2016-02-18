@@ -255,14 +255,14 @@ body {
 #showroom .add-to-bin {
   display: inline-block;
   width: 89px;
-  margin: 10px 4px 0 0;
+  margin: 10px 0 0 0;
   float: right;
   background-color: #5c5ce9;
   color: #ffffff;
   font: 400 14px / 24px Roboto;
   text-align: center;
 }
-#showroom .good-sizes {
+.good-sizes {
   display: none;
 }
 section h3 {
@@ -472,4 +472,33 @@ section h3 {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
+}
+/* Here I am starting */
+.good-card {
+  position: relative;
+  max-width: 230px;
+  margin: 0 7px;
+}
+.good-card:hover {
+  z-index: 3;
+}
+.good-card:hover .good-card-wrapper {
+  padding: 0 15px;
+  width: 245px;
+  left: -7px;
+  background: #fff;
+  position: absolute;
+  border: 5px solid #4fc1b2;
+}
+.good-sizes {
+  margin-bottom: 10px;
+}
+.good-sizes p {
+  padding-bottom: 2px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.good-card:hover .good-sizes {
+  display: block;
 }
