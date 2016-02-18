@@ -1,0 +1,43 @@
+/**********************************\
+    DESKTOP FIRST METHOD
+\**********************************/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1239px) {
+  .rm_mask_right,
+  .rm_mask_left {
+    width: 322px;
+  }
+}
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/**********************************\
+    MOBILE FIRST METHOD
+\**********************************/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1240px) {
+  .container {
+    width: 1240px !important;
+  }
+  #header #logo {
+    width: 371px;
+    padding-left: 3px;
+  }
+  #header #header-search {
+    width: 500px;
+  }
+  #header #header-basket {
+    width: auto;
+  }
+  #sidebar {
+    width: 20.5%;
+  }
+  #showroom {
+    width: 79.5%;
+  }
+}

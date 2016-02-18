@@ -1,0 +1,23 @@
+/********************************************/
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('../fonts/Corbel/Corbel.eot');
+    src: local('☺'), url('../Corbel/Corbel.woff') format('woff'), url('../fonts/Corbel/Corbel.otf') format('opentype'), url('../fonts/Corbel/Corbel.ttf') format('truetype'), url('../fonts/Corbel/Corbel.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFAgoraSerifProItalic';
+    src: url('../fonts/PFAgoraSerifPro/PFAgoraSerifProItalic.eot');
+    src: local('☺'), url('../PFAgoraSerifPro/PFAgoraSerifProItalic.woff') format('woff'), url('../fonts/PFAgoraSerifPro/PFAgoraSerifProItalic.otf') format('opentype'), url('../fonts/PFAgoraSerifPro/PFAgoraSerifProItalic.ttf') format('truetype'), url('../fonts/PFAgoraSerifPro/PFAgoraSerifProItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino/Palatino.eot');
+    src: local('☺'), url('../Palatino/Palatino.woff') format('woff'), url('../fonts/Palatino/Palatino.otf') format('opentype'), url('../fonts/Palatino/Palatino.ttf') format('truetype'), url('../fonts/Palatino/Palatino.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
