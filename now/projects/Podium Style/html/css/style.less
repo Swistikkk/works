@@ -213,11 +213,14 @@ p {
 }
 
 #goods-showcase {
-  padding-top: 21px;
-  padding-bottom: 100px;
+  overflow: hidden;
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 21px;
+    padding-bottom: 10px;
 }
 
 #sidebar {
+  float: left;
   padding: 5px 0 0;
   h5 {
     margin-bottom: 10px;
@@ -233,10 +236,15 @@ p {
 }
 
 #showroom {
-
-  display: inline-block;
-  padding-top: 6px;
+   box-sizing: content-box;
+    float: left;
+    div div {
+      padding: 0;
+    }
   .good-card {
+     z-index: 1;
+     position: relative;
+   background: #fff;
     box-shadow: 0 0 15px 0.00px rgba(0, 0, 0, 0.12);
  }
  .good-img {
@@ -542,21 +550,26 @@ section {
 
 /* Here I am starting */
 
-.good-card {
-   position: relative;
-   max-width: 230px;
-   margin: 0 7px;
-
+#showroom .good-card {
+   margin-top: 7px;
+   margin-left: 11px;
+   margin-bottom: 15px;
    &:hover {
-      z-index: 3;
+      border: none;
+      left: -10px;
+      z-index: 2;
+      box-sizing: content-box;
       .good-card-wrapper {
          padding: 0 15px;
          width: 245px;
          left: -7px;
          background: #fff;
          position: absolute;
-         border: 5px solid #4fc1b2;
-      }
+         border: 7px solid #4fc1b2;
+      } 
+   }
+   .good-card-wrapper {
+      margin: 0 10px;
    }
 }
 
@@ -572,4 +585,108 @@ section {
 
 .good-card:hover .good-sizes {
    display: block;
+}
+
+.see-all {
+   margin: 15px auto;
+   a {
+      padding: 7px;
+      color: #fff;
+      background: #4a00fb;
+      margin: 0 auto;
+      width: 252px;
+      height: 54px;
+      display: block;
+      span {
+         padding: 10px 57px;
+         border: 3px solid #fff;
+         display: block;
+      }
+
+      &:hover {
+         background: darken(#4a00fb, 15%);
+      }
+   }
+}
+
+.not-avail {
+      color: #cccccc;
+}
+
+.for-u {
+   margin-top: 40px;
+}
+
+.description {
+   margin-bottom: 35px;
+   h4 {
+      font-size: 23px;
+      margin: 32px 0;
+   }
+   p {
+      font-size: 17px;
+      padding-bottom: 5px;
+   }
+}
+
+.bottom-nav {
+   background: #f1f1f1;
+   nav a {
+      display: inline-block;
+      padding: 15px 0;
+      margin-right: 70px;
+      color: #000000;
+      font-size: 18px;
+      &:last-child {
+         margin-right: 0;
+      }
+      &:hover {
+         color: #4a00fe;
+      }
+   }
+   .active {
+         color: #4a00fe;
+      }
+}
+
+.bottom-footer {
+   background: #e8e8e8;
+   padding: 28px 0 10px;
+   ul {
+      display: block;
+      float: left;
+      margin-right: 100px;
+      margin-left: 15px;
+   }
+   ul li {
+      margin-bottom: 12px;
+      a {
+         color: #000000;
+         &:hover {
+            color: #3b3b3b;
+         }
+      }
+   }
+}
+
+.bottom-contacts {
+   float: left;
+   margin-left: 70px;
+   p {
+      font-weight: bold;
+      padding-bottom: 30px;
+      font-weight: 18px;
+
+   }
+   span {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 10px;
+      img {
+         margin-right: 14px;
+      }
+   }
+   &-item {
+      margin-bottom: 25px;
+   }
 }

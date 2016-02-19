@@ -18,9 +18,14 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
 	<link href='https://fonts.googleapis.com/css?family=Andika&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:900,400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!-- Some js -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<!-- Add Stylesheets CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 
@@ -209,8 +214,7 @@
      			<!-- Here I am starting -->
      			<section id="goods-showcase">
      				<div class="container">
-     					<div class="row">
-     						<aside id="sidebar" class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
+     						<aside id="sidebar">
      							<div class="categories-widget">
      								<h5>Каталог</h5>
      								<a href="#">Платья и сарафаны</a>
@@ -220,144 +224,419 @@
      								<a href="#">Юбки</a>
      							</div>
      						</aside>
-     						<div id="showroom" class="">
+     						<div id="showroom">
      							
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     							<div class="row">
+     								
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
-     							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/2.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
-     							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/3.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
-     							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/4.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
+     							
      							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     							<div class="row">
+     								
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
-     							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/2.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
-     							</div>
-     							<div class="good-card col-lg-3 col-md-4 col-sm-6 col-xs-12">
-     								<div class="good-card-wrapper">
-     									<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
-     									<div class="good-desc">
-     										<h5 class="good-name">Платье вечернее</h5>
-     										<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
-     										<a href="" class="add-to-bin">в корзину</a>
-     										<div class="good-sizes">
-     											<p>Размеры (RUS):</p>
-     											<span>38</span>
-     											<span class="not-avail">40</span>
-     											<span class="not-avail">42</span>
-     											<span>44</span>
-     											<span>46</span>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/3.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
      										</div>
      									</div>
      								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/4.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     							
      							</div>
-
+     							<div class="row">
+     								
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/2.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/3.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/4.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     							
+     							</div>
+     							<div class="row">
+     								
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/1.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/2.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/3.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     								<div class="col-md-3 col-sm-6 col-xs-12">
+     									<div class="good-card">
+     										<div class="good-card-wrapper">
+     											<div class="good-img"><img src="img/showroom/4.jpg" alt=""></div>
+     											<div class="good-desc">
+     												<h5 class="good-name">Платье вечернее</h5>
+     												<p class="good-price"><span class="new-price">2 300</span> Р <span class="old-price">2800Р</span></p>
+     												<a href="" class="add-to-bin">в корзину</a>
+     												<div class="good-sizes">
+     													<p>Размеры (RUS):</p>
+     													<span>38</span>
+     													<span class="not-avail">40</span>
+     													<span class="not-avail">42</span>
+     													<span>44</span>
+     													<span>46</span>
+     												</div>
+     											</div>
+     										</div>
+     									</div>
+     								</div>
+     							
+     							</div>
      						</div>
+     					</div>
+     					<div class="see-all">
+     						<a href="#"><span>Смотреть всё</span></a>
      					</div>
      				</div>
      			</section>
-     			<footer id="footer">
+     			<section class="for-u">
+     				<h3>Рекомендуем</h3>
+     					<br>
+     					<br>
+     					<br>
+     					<br>
+     			</section>
+     			<section class="description">
      				<div class="container">
-     					<div class="row">
-     						<a href="" id="flogo"></a>
-
+     					<h4>Заголовок</h4>
+     					<p>Большой выбор товаров</p>
+     					<p>В интернет-магазине одежды и обуви Lamoda.ru каждый может выбрать и купить одежду, обувь или аксессуар в 2 клика.</p>
+     					<p>В каталоге интернет-магазина Lamoda.ru более 1000 брендов мужской, женской и детской обуви и одежды разных ценовых категорий, всего более 2 000 000 товаров. </p>
+     					<p>Кроме того, у нас есть аксессуары, косметика и парфюмерия, спортивные товары, и ассортимент постоянно пополняется!</p>
+     					<p>Со многими производителями Lamoda.ru сотрудничает напрямую, в остальных случаях мы выбираем надежных, проверенных поставщиков. Мы гарантируем подлинность товара, что подтверждается сертификатами.</p>
+     					<p>Доставка с примеркой</p>
+     					<p>У нас есть собственная служба доставки Lamoda Express, которая работает в 66 крупнейших городах России: Москва и МО, Санкт-Петербург, Нижний Новгород, Новосибирск, Екатеринбург, Самара, Тольятти, Тюмень, Челябинск и другие. Срок доставки — 1-2 дня. Бесплатная доставка по всей России!</p>
+     					<p>Примерьте перед покупкой! Интернет-магазин Lamoda даёт возможность примерить одежду, обувь и другие товары перед оплатой заказа курьеру. Оплачивайте только то, что вам подошло и понравилось!</p>
+     					<p>Оплата и возврат</p>
+     					<p>Интернет-магазин одежды и обуви Lamoda.ru позволяет вернуть товар в течение 365 дней с момента покупки, абсолютно бесплатно. Вернуть товары можно как с курьером до оплаты заказа, так и по почте или в одном из пунктов выдачи заказов в Москве.</p>
+     				</div>
+     			</section>
+     			<section class="bottom-nav">
+     				<div class="container">
+     					<nav>
+     						<a href="#">О магазине</a>
+     						<a href="#">Каталог</a>
+     						<a href="#">New</a>
+     						<a href="#">Распродажа</a>
+     						<a href="#">Доставка и оплата</a>
+     						<a href="#" class="active">Оптовым покупателям</a>
+     						<a href="#">Контакты</a>
+     					</nav>
+     				</div>
+     			</section>
+     			<footer class="bottom-footer">
+     				<div class="container">
+     					<ul>
+     					   <li><a href="#">Доставка</a></li>
+     						<li><a href="#">Способы оплаты</a></li>
+     						<li><a href="#">Возврат и обмен</a></li>
+     						<li><a href="#">Оплата доставки</a></li>
+     						<li><a href="#">Индивидуальный пошив</a></li>
+     						<li><a href="#">Индивидуальный пошив</a></li>
+     					</ul>
+     					<ul>
+     					   <li><a href="#">Подарочный сертификат</a></li>
+     						<li><a href="#">Бонусная программа</a></li>
+     						<li><a href="#">Индивидуальный пошив</a></li>
+     						<li><a href="#">Программа партнерства</a></li>
+     						<li><a href="#">Индивидуальный пошив</a></li>
+     						<li><a href="#">Таблица размеров</a></li>
+     					</ul>
+     					<ul>
+     					   <li><a href="#">Контакты</a></li>
+     						<li><a href="#">Вакансии</a></li>
+     						<li><a href="#">Карта сайта</a></li>
+     					</ul>
+     					<div class="bottom-contacts">
+     						<div class="bottom-contacts-item">
+     							<p>Наши телефоны</p>
+     							<span>+7 (831) 280 824</span>
+     							<span>8 800 700 211</span>
+     						</div>
+     						<div class="bottom-contacts-item">
+     							<p>Мы принимаем</p>
+     							<span><img src="img/icons/visa.png" alt=""><img src="img/icons/mastercard.png" alt=""></span>
+     						</div>
      					</div>
      				</div>
      			</footer>
@@ -375,6 +654,7 @@
      			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
      			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
      			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+     			<script type="text/javascript" src="js/slick.min.js"></script>
      			<script src="js/jquery.transform-0.9.3.min_.js"></script>
      			<script src="js/jquery.RotateImageMenu.js"></script>
      			<script src="js/functions.js"></script>

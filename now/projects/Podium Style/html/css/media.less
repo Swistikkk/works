@@ -43,7 +43,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {}
-
+    #goods-showcase .container {
+       overflow: visible;
+    }
 
 /* Extra Small Devices, Phones */
 
@@ -58,14 +60,16 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {}
-
+    .good-card {
+        width: 230px;
+    }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {}
 
 @media only screen and (min-width: 1240px) {
-    .container {
+     .container {
         width: 1240px !important;
     }
     #header {
@@ -80,10 +84,10 @@
             width: auto;
         }
     }
-    #sidebar {
-        width: 20.5%;
-    }
-    #showroom {
-        width: 79.5%;
-    }
+     #sidebar {
+       width: 20.5%;
+        }
+        /* #showroom {
+               width: 79.5%;
+        }  */
 }

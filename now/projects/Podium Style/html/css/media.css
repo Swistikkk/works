@@ -16,9 +16,15 @@
     MOBILE FIRST METHOD
 \**********************************/
 /* Custom, iPhone Retina */
+#goods-showcase .container {
+  overflow: visible;
+}
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+.good-card {
+  width: 230px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1240px) {
   .container {
@@ -37,7 +43,7 @@
   #sidebar {
     width: 20.5%;
   }
-  #showroom {
-    width: 79.5%;
-  }
+  /* #showroom {
+               width: 79.5%;
+        }  */
 }

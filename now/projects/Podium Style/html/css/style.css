@@ -198,10 +198,13 @@ body {
   font: 400 16px / 21px Andika;
 }
 #goods-showcase {
+  overflow: hidden;
+  border-bottom: 1px solid #f1f1f1;
   padding-top: 21px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 #sidebar {
+  float: left;
   padding: 5px 0 0;
 }
 #sidebar h5 {
@@ -216,10 +219,16 @@ body {
   font: 700 16px / 30px Corbel;
 }
 #showroom {
-  display: inline-block;
-  padding-top: 6px;
+  box-sizing: content-box;
+  float: left;
+}
+#showroom div div {
+  padding: 0;
 }
 #showroom .good-card {
+  z-index: 1;
+  position: relative;
+  background: #fff;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.12);
 }
 #showroom .good-img {
@@ -474,21 +483,27 @@ section h3 {
   -ms-transform: translate3d(0, 0, 0);
 }
 /* Here I am starting */
-.good-card {
-  position: relative;
-  max-width: 230px;
-  margin: 0 7px;
+#showroom .good-card {
+  margin-top: 7px;
+  margin-left: 11px;
+  margin-bottom: 15px;
 }
-.good-card:hover {
-  z-index: 3;
+#showroom .good-card:hover {
+  border: none;
+  left: -10px;
+  z-index: 2;
+  box-sizing: content-box;
 }
-.good-card:hover .good-card-wrapper {
+#showroom .good-card:hover .good-card-wrapper {
   padding: 0 15px;
   width: 245px;
   left: -7px;
   background: #fff;
   position: absolute;
-  border: 5px solid #4fc1b2;
+  border: 7px solid #4fc1b2;
+}
+#showroom .good-card .good-card-wrapper {
+  margin: 0 10px;
 }
 .good-sizes {
   margin-bottom: 10px;
@@ -501,4 +516,99 @@ section h3 {
 }
 .good-card:hover .good-sizes {
   display: block;
+}
+.see-all {
+  margin: 15px auto;
+}
+.see-all a {
+  padding: 7px;
+  color: #fff;
+  background: #4a00fb;
+  margin: 0 auto;
+  width: 252px;
+  height: 54px;
+  display: block;
+}
+.see-all a span {
+  padding: 10px 57px;
+  border: 3px solid #fff;
+  display: block;
+}
+.see-all a:hover {
+  background: #3300af;
+}
+.not-avail {
+  color: #cccccc;
+}
+.for-u {
+  margin-top: 40px;
+}
+.description {
+  margin-bottom: 35px;
+}
+.description h4 {
+  font-size: 23px;
+  margin: 32px 0;
+}
+.description p {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.bottom-nav {
+  background: #f1f1f1;
+}
+.bottom-nav nav a {
+  display: inline-block;
+  padding: 15px 0;
+  margin-right: 70px;
+  color: #000000;
+  font-size: 18px;
+}
+.bottom-nav nav a:last-child {
+  margin-right: 0;
+}
+.bottom-nav nav a:hover {
+  color: #4a00fe;
+}
+.bottom-nav .active {
+  color: #4a00fe;
+}
+.bottom-footer {
+  background: #e8e8e8;
+  padding: 28px 0 10px;
+}
+.bottom-footer ul {
+  display: block;
+  float: left;
+  margin-right: 100px;
+  margin-left: 15px;
+}
+.bottom-footer ul li {
+  margin-bottom: 12px;
+}
+.bottom-footer ul li a {
+  color: #000000;
+}
+.bottom-footer ul li a:hover {
+  color: #3b3b3b;
+}
+.bottom-contacts {
+  float: left;
+  margin-left: 70px;
+}
+.bottom-contacts p {
+  font-weight: bold;
+  padding-bottom: 30px;
+  font-weight: 18px;
+}
+.bottom-contacts span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.bottom-contacts span img {
+  margin-right: 14px;
+}
+.bottom-contacts-item {
+  margin-bottom: 25px;
 }
